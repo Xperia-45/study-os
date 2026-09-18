@@ -1,6 +1,6 @@
 function Statecard({ title, value, description }) {
   return (
-    <div>
+    <div className="stat-card">
       <h2>{title}</h2>
       <p>{value}</p>
       <p>{description}</p>
