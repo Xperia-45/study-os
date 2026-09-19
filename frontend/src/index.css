@@ -1,6 +1,6 @@
 .dashboard {
   max-width: 1000px;
-  background-color: red;
+  background-color: #0a63b1;
   padding: 20px;
   margin: 20px auto;
 }
@@ -10,7 +10,22 @@
 }
 .stat-card{
   flex: 1;
-  background-color: white;
+  background-color: rgb(194, 12, 12);
   padding: 20px;
   border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(215, 8, 8, 0.08);
+}
+body {
+  margin: 0;
+  background-color: #030b1c;
+  font-family: 'Arial', sans-serif;
+}
+.welcome-title{
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+.welcome-subtitle{
+  font-size: 18px;
+  margin-top: 0;
+  opacity: 0.7;
 }

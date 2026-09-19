@@ -4,8 +4,8 @@ function Welcome() {
 
   return (
     <div>
-      <h1>Welcome, {studentName} 👋</h1>
-      <p>Your AI-powered academic workspace.</p>
+      <h1 className = "Welcome-title">WELCOME, {studentName} 👋</h1>
+      <p className="subtitle">Your AI-powered academic workspace.</p>
       <p>University: {uniname}</p>
     </div>
   )
